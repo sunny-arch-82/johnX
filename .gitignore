@@ -1,0 +1,50 @@
+# Secrets
+.env
+*.key
+
+# Python environments
+ai/
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs / outputs
+logs/
+*.log
+outputs/
+runs/
+cache/
+tmp/
+
+# Audio/video artifacts
+recordings/
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.mp4
+
+# Model files
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Gradio
+.gradio/
